@@ -1,0 +1,100 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block content %}
+    <main id="main">
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>About Us</h2>
+            <p>We are an eco-friendly team of developers and designers</p>
+          </div>
+
+          <div class="row content">
+            <div class="col-lg-6">
+              <p>
+                We are the first web design agency providing services only for enviromental-care,
+                social-friendly
+                projects, companies and start-ups. If you or objective is focus on making a better
+                world, it is our
+                resposability to boost up your online presence.
+              </p>
+              <ul>
+                <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+                  eaque!</li>
+                <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Tempore, mollitia!</li>
+                <li><i class="ri-check-double-line"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Totam, nobis.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+              <p>
+                Our objective is to fill the world with kindness, protection and truthful passion, it is
+                time that
+                everybody supports what is ethical and right for our planet and for us. Join together we
+                can make that
+                change, are you with us?
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Us Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Our Dedicated Team</h2>
+          </div>
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <div class="member-img">
+                  <img src="{% static 'img/team/arthur.jpg' %}" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/arthur-obo-nwakaji/"><i class="icofont-linkedin"></i></a>
+                    <a href="https://github.com/Arthurobo"><i class="bx bxl-github"></i></a>
+                    <a href="https://twitter.com/NwakajiObo"><i class="icofont-twitter"></i></a>
+                    <a href="https://www.instagram.com/arthur__richie/"><i class=" icofont-instagram"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Arthur Obo-Nwakaji</h4>
+                  <span>Founder</span>
+                  <span>Full Stack Developer (Python & Django)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <div class="member-img">
+                  <img src="{% static 'img/team/francisco.jpg' %}" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/devmasf/"><i class="icofont-linkedin"></i></a>
+                    <a href="https://github.com/devmasf"><i class="bx bxl-github"></i></a>
+                    <a href="https://devnomad.surge.sh"><i class="bx bx-world"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Francisco Mastromauro</h4>
+                  <span>Founder</span>
+                  <span>Full Stack Developer (MEVN Stack)</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Team Section -->
+
+    </main><!-- End #main -->
+{% endblock content %}

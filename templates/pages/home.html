@@ -1,0 +1,280 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block content %}
+        <!-- ======= Hero Section ======= -->
+        <section id="hero2" class="d-flex flex-column justify-content-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-12">
+                        <h1>WE'RE THE FIRST FULLY-ECOLOGICAL AND SUSTAINABLE WEB DESIGN AGENCY</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <main id="main">
+
+            <!-- ======= Portfolio Section ======= -->
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>What we are doing</h2>
+                        <p>Our passion for developing and design</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-app">App</li>
+                                <li data-filter=".filter-card">Card</li>
+                                <li data-filter=".filter-web">Web</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row portfolio-container">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <img src="{% static 'img/portfolio/van-packers.jpg' %}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App 1</h4>
+                                <p>App</p>
+                                <a href="{% static 'img/portfolio/van-packers.jpg' %}" data-gall="portfolioGallery"
+                                    class="venobox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                            <img src="{% static 'img/portfolio/Screenshot_2020-07-31 AnonimA.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Web 3</h4>
+                                <p>Web</p>
+                                <a href="{% static 'img/portfolio/Screenshot_2020-07-31 AnonimA.png' %}"
+                                    data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i
+                                        class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                            <img src="{% static 'img/portfolio/coding-lab.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>App 2</h4>
+                                <p>App</p>
+                                <a href="{% static 'img/portfolio/coding-lab.png' %}" data-gall="portfolioGallery"
+                                    class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                            <img src="{% static 'img/portfolio/devnomad.png' %}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Card 2</h4>
+                                <p>Card</p>
+                                <a href="{% static 'img/portfolio/devnomad.png' %}" data-gall="portfolioGallery"
+                                    class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="details-link" title="More Details"><i
+                                        class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Portfolio Section -->
+
+            <!-- ======= Counts Section ======= -->
+            <section id="counts" class="counts">
+                <div class="container">
+
+                    <div class="text-center title">
+                        <h3>What we have achieved so far</h3>
+                        <p>Clients all around the world making a better world!</p>
+                    </div>
+
+                    <div class="row counters">
+
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">20</span>
+                            <p>Happy Clients</p>
+                        </div>
+
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">15</span>
+                            <p>Projects</p>
+                        </div>
+
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">200</span>
+                            <p>Hours Of Support</p>
+                        </div>
+
+                        <div class="col-lg-3 col-6 text-center">
+                            <span data-toggle="counter-up">2</span>
+                            <p>Remote Hard Workers</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Counts Section -->
+
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services">
+                <div class="container">
+
+                    <div class="section-title">
+                        <h2>Services</h2>
+                        <p>We can help you making that change.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-code-alt"></i></div>
+                                <h4><a href="">Web Development</a></h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                                <h4><a href="">Web Design</a></h4>
+                                <p>UX/UI Design for your website... Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-world"></i></div>
+                                <h4><a href="">Digital Marketing</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, nulla!</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                                <h4><a href="">Maintenance and Update</a></h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, non?</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section><!-- End Services Section -->
+
+            <!-- ======= Clients Section ======= -->
+
+            <section id="clients" class="clients">
+                <div class="container">
+
+                    <div class="text-center title">
+                        <h3>Our Environmental Partners</h3>
+                    </div>
+
+                    <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+                        <div class="col-lg-4 col-md-4 col-xs-6">
+                            <div class="client-logo">
+                                <img src="{% static 'img/clients/client-4.png' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-xs-6">
+                            <div class="client-logo">
+                                <img src="{% static 'img/clients/client-2.jpeg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-xs-6">
+                            <div class="client-logo">
+                                <img src="{% static 'img/clients/client-2.png' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Clients Section -->
+
+            <!-- ======= Stack Section ======= -->
+            <section id="stack" class="stack">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Our Stack</h2>
+                        <p>Our top level tools</p>
+                    </div>
+                    <div class="row no-gutters stack-wrap clearfix wow fadeInUp">
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/python-original-wordmark.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/django-original.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/javascript-original.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/vuejs-original-wordmark.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/nodejs-original-wordmark.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/express-original-wordmark.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/mongodb-original-wordmark.svg' %}" class=" img-fluid" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6">
+                            <div class="stack-logo">
+                                <img src="{% static 'img/stack/postgresql-original-wordmark.svg' %}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <!-- End Stack Section -->
+
+        </main><!-- End #main -->
+
+{% endblock content %}
